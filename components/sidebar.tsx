@@ -57,10 +57,10 @@ export function Sidebar() {
   const pathname = usePathname();
 
   return (
-    <div className="space-y-4 py-4 flex flex-col h-full bg-muted/50 border-r">
+    <div className="space-y-4 py-4 flex flex-col h-full bg-muted/50 border-r max-w-[225px]">
       <div className="px-3 py-2">
         <Link href="/dashboard">
-          <h1 className="text-2xl font-bold text-primary mb-4 px-4">Throne</h1>
+          <h1 className="text-2xl font-bold text-primary mb-4 px-4">The Throne</h1>
         </Link>
         <div className="space-y-1">
           {routes.map((route) => (
